@@ -10,4 +10,5 @@ module.exports = {
   arrowParens: 'always',
   htmlWhitespaceSensitivity: 'css',
   vueIndentScriptAndStyle: true,
+  plugins: [require('prettier-plugin-tailwindcss')],
 };
